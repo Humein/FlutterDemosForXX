@@ -1,0 +1,2 @@
+Point(3, 4)Hello World
+Java~Dart~kotlin~Swift零B
