@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
 /**
- * 当前页面功能
-   当点击一个FloatingActionButton时，如何在两个Widget之间切换：
+ * 如何在布局中添加或删除组件？
 */
 
 // 程序唯一入口
@@ -29,7 +28,10 @@ class MePage extends StatelessWidget {
   /// 页面 样式
   @override
   Widget build(BuildContext context) {
-    return Center(child:Text("我的"));
+//    return Center(child:Text("我的"));
+    return Center(
+      child: SampleAppPage(),
+    );
     return Scaffold(
       body: Center(
         child: SampleAppPage(),
